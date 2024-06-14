@@ -7,8 +7,15 @@
 </head>
 <body>
   <script src="https://webchat.hyperflow.global/sdk.js"></script>
-  <script>Hyperflow.initFlow("dcc1ef941b0e20dcf6ce57790917f61f",{
+  <script>Hyperflow.init("dcc1ef941b0e20dcf6ce57790917f61f",{
     "cnpj": "123456"
+})</script>
+    <script>Hyperflow.on('getStarted', () => {
+ 
+
+  Hyperflow.initFlow('dcc1ef941b0e20dcf6ce57790917f61f', {
+    "cnpj": "123456"
+  })
 })</script>
 </body>
 </html>
